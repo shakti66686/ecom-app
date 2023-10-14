@@ -1,10 +1,10 @@
 .new-collection {
   display: flex;
   align-items: center;
-
   flex-direction: column;
   gap: 20px;
-  height: 90vh;
+  height: 130vh;
+  margin-bottom: 100px;
 }
 .new-collection h1 {
   color: #171717;

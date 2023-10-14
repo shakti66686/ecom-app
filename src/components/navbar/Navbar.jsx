@@ -25,20 +25,20 @@ const Navbar = () => {
           </li>
           <li
             onClick={() => {
-              setmenu("Men");
+              setmenu("Mens");
             }}
           >
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/Mens" style={{ textDecoration: "none" }}>
               Men
             </Link>
-            {menu === "Men" ? <hr className="link-hr" /> : <></>}
+            {menu === "Mens" ? <hr className="link-hr" /> : <></>}
           </li>
           <li
             onClick={() => {
               setmenu("Women");
             }}
           >
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/Women" style={{ textDecoration: "none" }}>
               Women
             </Link>
             {menu === "Women" ? <hr className="link-hr" /> : <></>}
@@ -48,7 +48,7 @@ const Navbar = () => {
               setmenu("Kids");
             }}
           >
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/Kids" style={{ textDecoration: "none" }}>
               Kids
             </Link>
             {menu === "Kids" ? <hr className="link-hr" /> : <></>}
