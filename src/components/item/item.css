@@ -6,6 +6,7 @@
 }
 .item p {
   margin: 6px 0px;
+  font-size: 14px;
 }
 .item-prices {
   display: flex;

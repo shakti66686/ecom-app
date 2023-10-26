@@ -18,6 +18,8 @@
   margin: 1px;
 }
 li {
+  font-weight: 600;
+  color: #7433ff;
   list-style: none;
   cursor: pointer;
 }
